@@ -1,0 +1,47 @@
+/* Файл: src/styles/App.module.css */
+
+.appContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #5472a8, #141b34);
+  color: #bab4b4;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.formTitle {
+  color: #c0bdc4;
+  margin-bottom: 20px;
+}
+
+.form {
+  background-color: #b0b0b5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.inputField {
+  border-radius: 5px;
+}
+
+.submitButton {
+  background-color: #6200ea;
+  border-color: #6200ea;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #3700b3;
+  border-color: #3700b3;
+}
+
+.resultCard {
+  margin-top: 20px;
+  background-color: #adabbd;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
